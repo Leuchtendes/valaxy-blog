@@ -79,6 +79,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/lists/': RouteRecordInfo<
+      '/lists/',
+      '/lists',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/page/[page]': RouteRecordInfo<
       '/page/[page]',
       '/page/:page',
@@ -100,9 +107,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/projects/projects': RouteRecordInfo<
-      '/projects/projects',
-      '/projects/projects',
+    '/posts/seccond': RouteRecordInfo<
+      '/posts/seccond',
+      '/posts/seccond',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/projects/': RouteRecordInfo<
+      '/projects/',
+      '/projects',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -175,6 +189,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/lists/index.md': {
+      routes:
+        | '/lists/'
+      views:
+        | never
+    }
     'node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
@@ -193,9 +213,15 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/projects/projects.md': {
+    'pages/posts/seccond.md': {
       routes:
-        | '/projects/projects'
+        | '/posts/seccond'
+      views:
+        | never
+    }
+    'pages/projects/index.md': {
+      routes:
+        | '/projects/'
       views:
         | never
     }

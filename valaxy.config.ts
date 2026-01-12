@@ -19,10 +19,15 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       title: '神以灵丶的小站',
     },
-
     pages: [
+        {
+        name: '收集信息',
+        url: '/lists/',
+        icon: 'i-ri-gallery-view',
+        color: 'dodgerblue',
+      },
       {
-        name: '项目列表123',
+        name: '项目列表',
         url: '/projects/',
         icon: 'i-ri-gallery-view',
         color: 'dodgerblue',
