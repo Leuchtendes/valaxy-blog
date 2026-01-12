@@ -17,21 +17,27 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '云游君的小站',
+      title: '神以灵丶的小站',
     },
 
     pages: [
       {
-        name: '我的小伙伴们',
-        url: '/links/',
-        icon: 'i-ri-genderless-line',
+        name: '项目列表123',
+        url: '/projects/',
+        icon: 'i-ri-gallery-view',
         color: 'dodgerblue',
       },
       {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
+        name: '相册',
+        url: '/albums/',
+        icon: 'i-ri-image-line',
         color: 'hotpink',
+      },
+         {
+        name: '友情链接',
+        url: '/links/',
+        icon: 'i-ri-link',
+        color: 'grey',
       },
     ],
 
@@ -39,7 +45,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2016,
       beian: {
         enable: true,
-        icp: '苏ICP备17038157号',
+        icp: '春宵苦短日高起,从此君王不早朝.',
       },
     },
   },

@@ -1,4 +1,6 @@
 # you can custom locale
 intro:
   desc: Valaxy Template
-  hi: Hello, Valaxy!
+  hi: Hello, World!
+menu:
+  posts: posts

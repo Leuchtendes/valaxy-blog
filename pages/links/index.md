@@ -1,8 +1,8 @@
 ---
-title: 我的小伙伴们
+title: 这是链接页面
 keywords: 链接
-description: 云游的小伙伴们
-links: https://friends.yunyoujun.cn/links.json
+description: xxxxxx
+links: xxxxxxx
 random: true
 ---
 

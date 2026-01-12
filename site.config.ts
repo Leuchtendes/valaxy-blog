@@ -1,13 +1,15 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://valaxy.site/',
+  url: 'https://leuchtendes.github.io',
   lang: 'zh-CN',
-  title: 'Valaxy Theme Yun',
+  title: '神以灵丶的小站',
   author: {
-    name: '云游君',
+    name: '神以灵丶',
+    avatar: 'https://www.yunyoujun.cn/images/avatar.jpg',
   },
-  description: 'Valaxy Theme Yun Preview.',
+  favicon: 'https://www.yunyoujun.cn/images/avatar.jpg',
+  description: '神以灵丶的小站.',
   social: [
     {
       name: 'RSS',
@@ -16,74 +18,74 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: 'QQ 群 1050458482',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
+      name: 'QQ 群 xxxxx',
+      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=xxxxx&jump_from=webapi',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/YunYouJun',
+      link: 'https://github.com/xxxxx',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
     {
       name: '微博',
-      link: 'https://weibo.com/jizhideyunyoujun',
+      link: 'https://weibo.com/xxxxx',
       icon: 'i-ri-weibo-line',
       color: '#E6162D',
     },
     {
       name: '豆瓣',
-      link: 'https://www.douban.com/people/yunyoujun/',
+      link: 'https://www.douban.com/people/xxxxx/',
       icon: 'i-ri-douban-line',
       color: '#007722',
     },
     {
       name: '网易云音乐',
-      link: 'https://music.163.com/#/user/home?id=247102977',
+      link: 'https://music.163.com/#/user/home?id=xxxxx',
       icon: 'i-ri-netease-cloud-music-line',
       color: '#C20C0C',
     },
     {
       name: '知乎',
-      link: 'https://www.zhihu.com/people/yunyoujun/',
+      link: 'https://www.zhihu.com/people/xxxxx/',
       icon: 'i-ri-zhihu-line',
       color: '#0084FF',
     },
     {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/1579790',
+      link: 'https://space.bilibili.com/xxxxx',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
     {
       name: '微信公众号',
-      link: 'https://cdn.yunyoujun.cn/img/about/white-qrcode-and-search.jpg',
+      link: 'https://cdn.xxxxx.cn/img/about/white-qrcode-and-search.jpg',
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
     },
     {
       name: 'Twitter',
-      link: 'https://twitter.com/YunYouJun',
+      link: 'https://twitter.com/xxxxx',
       icon: 'i-ri-twitter-x-fill',
       color: 'black',
     },
     {
       name: 'Telegram Channel',
-      link: 'https://t.me/elpsycn',
+      link: 'https://t.me/xxxxx',
       icon: 'i-ri-telegram-line',
       color: '#0088CC',
     },
     {
       name: 'E-Mail',
-      link: 'mailto:me@yunyoujun.cn',
+      link: 'mailto:me@xxxxx.cn',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
     {
       name: 'Travelling',
-      link: 'https://www.travellings.cn/go.html',
+      link: 'https://www.xxxxx.cn/go.html',
       icon: 'i-ri-train-line',
       color: 'var(--va-c-text)',
     },
@@ -95,7 +97,7 @@ export default defineSiteConfig({
 
   sponsor: {
     enable: true,
-    title: '我很可爱，请给我钱！',
+    title: '拿来，请给我钱！',
     methods: [
       {
         name: '支付宝',

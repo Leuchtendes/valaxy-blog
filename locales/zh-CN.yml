@@ -1,4 +1,6 @@
 # 你可以像这样自定义 i18n
 intro:
   desc: Valaxy 模版
-  hi: 你好，Valaxy
+  hi: 你好，世界
+menu:
+  posts: 博客文章
